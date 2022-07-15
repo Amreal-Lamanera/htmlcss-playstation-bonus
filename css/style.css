@@ -126,6 +126,38 @@ img {
 
 /* #region HEADER */
 
+/* #region BONUS */
+
+#my-navbar_dropdown .nav-item {
+    position: static;
+}
+
+#my-navbar_dropdown .dropdown-menu {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+}
+
+#my-navbar_dropdown .dropdown-menu.show {
+    display: flex;
+}
+
+#my-navbar_dropdown .dropdown-item {
+    padding: 0.5rem 3rem;
+}
+
+#my-navbar_dropdown .dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: transparent;
+}
+
+#my-navbar_dropdown .my_card:hover {
+    border-radius: 0.25rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* #endregion */
+
 .main-header .sony-logo img {
     width: 5.25rem;
 }
@@ -294,7 +326,7 @@ img {
 }
 
 .ps5 .my_btn a:hover::before {
-    border: 2px solid var(--ps_blue);
+    border: 2px solid var(--ps-blue);
 }
 
 .ps5 .my_card:not([class*="active"]) {
@@ -312,7 +344,7 @@ img {
     left: 1.5rem;
     height: 2px;
     display: block;
-    background-color: var(--ps_blue);
+    background-color: var(--ps-blue);
     width: calc(100% - 3rem);
 }
 
@@ -351,7 +383,7 @@ img {
 /* #region PS4 */
 
 .ps4 .my_btn a:hover::before {
-    border: 2px solid var(--ps_blue);
+    border: 2px solid var(--ps-blue);
 }
 
 /* #endregion */
@@ -367,7 +399,7 @@ img {
 }
 
 .ps-plus .btn:hover {
-    color: var(--ps_blue);
+    color: var(--ps-blue);
 }
 
 /* #endregion */
